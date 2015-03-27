@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NanumScript.ttc">
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+            <string>NanumPen</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LoginVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dco-Ia-drr">
+                                <rect key="frame" x="150" y="460" width="300" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" backgroundImage="facelogin.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="461" width="300" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loginButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0QY-A7-9jb"/>
+                                    <segue destination="2cf-KK-iJg" kind="show" id="w32-39-9yT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Troca comigo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xwz-Yr-j7b">
+                                <rect key="frame" x="180" y="141" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="131" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="670"/>
+        </scene>
+        <!--TrocaVC-->
+        <scene sceneID="YKw-og-BUw">
+            <objects>
+                <viewController id="2cf-KK-iJg" customClass="TrocaVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jaB-Ui-peR"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fp-AE-dMh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vU3-XX-6d6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 7.png" translatesAutoresizingMaskIntoConstraints="NO" id="3bL-T3-k84">
+                                <rect key="frame" x="170" y="475" width="260" height="82"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="473" width="260" height="82"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Troca comigo.png" translatesAutoresizingMaskIntoConstraints="NO" id="OFw-sw-Zuh">
+                                <rect key="frame" x="213" y="60" width="174" height="78"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="106" y="58" width="174" height="78"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcX-J7-SN5">
+                                <rect key="frame" x="171" y="476" width="80" height="80"/>
+                                <state key="normal" backgroundImage="button1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="71" y="474" width="80" height="80"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonNoAction:" destination="2cf-KK-iJg" eventType="touchUpInside" id="9ym-MT-nUa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCu-TH-MRD">
+                                <rect key="frame" x="349" y="476" width="80" height="80"/>
+                                <state key="normal" backgroundImage="button2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="249" y="474" width="80" height="80"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="owa-uc-xKA" kind="show" id="s9h-JA-Sre"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gustavo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uQa-BB-f4p">
+                                <rect key="frame" x="187" y="185" width="227" height="229"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="87" y="173" width="227" height="229"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atI-xk-WvS">
+                                <rect key="frame" x="50" y="84" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="24"/>
+                                <state key="normal" backgroundImage="menu.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="336" y="90" width="25" height="25"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="5dt-Wq-Z9d" kind="show" id="BM7-ar-Dvy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="920-wx-yqx">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="chat.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="85" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Fwy-lR-3SO" kind="show" id="5yw-40-ja8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tam. M" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVg-Oe-sMO">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="22"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="128" y="401" width="65" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svs-z3-6La">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="22"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="234" y="401" width="29" height="26"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorite.png" translatesAutoresizingMaskIntoConstraints="NO" id="dB7-0J-cLQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="258" y="405" width="15" height="15"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.94117647058823528" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="920-wx-yqx"/>
+                                <exclude reference="kVg-Oe-sMO"/>
+                                <exclude reference="svs-z3-6La"/>
+                                <exclude reference="dB7-0J-cLQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="920-wx-yqx"/>
+                                <include reference="kVg-Oe-sMO"/>
+                                <include reference="svs-z3-6La"/>
+                                <include reference="dB7-0J-cLQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="LikesLabel" destination="svs-z3-6La" id="T0x-y8-olW"/>
+                        <outlet property="TamanhoLabel" destination="kVg-Oe-sMO" id="0aD-Tl-ecX"/>
+                        <outlet property="buttonNo" destination="OcX-J7-SN5" id="DJp-m6-tuV"/>
+                        <outlet property="buttonYes" destination="fCu-TH-MRD" id="GhT-gU-nHe"/>
+                        <outlet property="imageView" destination="uQa-BB-f4p" id="WlF-Sk-0Dx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQl-hZ-2yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722" y="681"/>
+        </scene>
+        <!--Match View Controller-->
+        <scene sceneID="szi-Id-m9O">
+            <objects>
+                <viewController id="owa-uc-xKA" customClass="MatchViewController" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kBx-dd-LTq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lbq-Yk-nW6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LsV-n9-fRO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opa!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0a-ad-uxE">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="36"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="121" y="84" width="56" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gustavo.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAj-uJ-W3U">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="207" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biamatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="RH7-gt-h6b">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="221" y="207" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zu2-F8-g4o">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="40"/>
+                                <color key="textColor" red="0.69019607839999997" green="0.20784313730000001" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="71" width="137" height="47"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="quer trocar com voce!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQp-ZC-W6j">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="36"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="53" y="126" width="303" height="42"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telegram.png" translatesAutoresizingMaskIntoConstraints="NO" id="WJj-b0-Gq0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="56" y="492" width="50" height="50"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb.png" translatesAutoresizingMaskIntoConstraints="NO" id="poX-J9-eRn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="298" y="492" width="50" height="50"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whatsapp.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztn-c3-06z">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="492" width="50" height="50"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyQ-5D-xpE">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="Continue trocando!">
+                                    <color key="titleColor" red="0.69019607839999997" green="0.20784313730000001" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="94" y="390" width="213" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="2cf-KK-iJg" kind="show" id="954-5W-MPg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ou entre em contato:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKT-kV-3rI">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="94" y="428" width="213" height="33"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxw-kB-LCT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="55"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="191" y="271" width="18" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail.png" translatesAutoresizingMaskIntoConstraints="NO" id="9LF-lL-aRo">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="492" width="50" height="50"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Y0a-ad-uxE"/>
+                                <exclude reference="EAj-uJ-W3U"/>
+                                <exclude reference="RH7-gt-h6b"/>
+                                <exclude reference="Zu2-F8-g4o"/>
+                                <exclude reference="gQp-ZC-W6j"/>
+                                <exclude reference="WJj-b0-Gq0"/>
+                                <exclude reference="poX-J9-eRn"/>
+                                <exclude reference="ztn-c3-06z"/>
+                                <exclude reference="hyQ-5D-xpE"/>
+                                <exclude reference="xKT-kV-3rI"/>
+                                <exclude reference="Yxw-kB-LCT"/>
+                                <exclude reference="9LF-lL-aRo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Y0a-ad-uxE"/>
+                                <include reference="EAj-uJ-W3U"/>
+                                <include reference="RH7-gt-h6b"/>
+                                <include reference="Zu2-F8-g4o"/>
+                                <include reference="gQp-ZC-W6j"/>
+                                <include reference="WJj-b0-Gq0"/>
+                                <include reference="poX-J9-eRn"/>
+                                <include reference="ztn-c3-06z"/>
+                                <include reference="hyQ-5D-xpE"/>
+                                <include reference="xKT-kV-3rI"/>
+                                <include reference="Yxw-kB-LCT"/>
+                                <include reference="9LF-lL-aRo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageUsuarioQuer" destination="EAj-uJ-W3U" id="pV5-2Q-SAW"/>
+                        <outlet property="imageUsuarioTem" destination="RH7-gt-h6b" id="51o-r1-Qdz"/>
+                        <outlet property="labelNome" destination="Zu2-F8-g4o" id="esD-9S-ojR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NVN-bl-fZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1522.5" y="1475"/>
+        </scene>
+        <!--GaleriaVC-->
+        <scene sceneID="CBB-hU-GdQ">
+            <objects>
+                <viewController id="E60-2D-wYB" customClass="GaleriaVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="op7-gb-iOi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ijT-1X-Qel"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8cb-C1-LNR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luisa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wkL-0X-e5g">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="126" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luisa3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="g6P-PI-YPe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="126" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carol3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gtG-Ja-LAS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="284" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mayaram2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qfc-3e-pw8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="284" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="o7M-qb-kl1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="442" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZND-Zc-b8s">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="22"/>
+                                <state key="normal" title="Voltar">
+                                    <color key="titleColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="28" width="57" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="5dt-Wq-Z9d" kind="show" id="AJG-Rc-io5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hw-LU-DoF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="20"/>
+                                <state key="normal" title="novo item">
+                                    <color key="titleColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="294" y="28" width="71" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="GSK-5I-IUj" kind="show" id="ZPd-ph-djr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mayaram3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OZd-DS-Fg1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="442" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Galeria" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSc-Ro-wcC">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="40"/>
+                                <color key="textColor" red="0.67450980390000004" green="0.20392156859999999" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="148" y="82" width="104" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803926" green="0.89411764705882357" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="wkL-0X-e5g"/>
+                                <exclude reference="g6P-PI-YPe"/>
+                                <exclude reference="gtG-Ja-LAS"/>
+                                <exclude reference="qfc-3e-pw8"/>
+                                <exclude reference="o7M-qb-kl1"/>
+                                <exclude reference="ZND-Zc-b8s"/>
+                                <exclude reference="4Hw-LU-DoF"/>
+                                <exclude reference="OZd-DS-Fg1"/>
+                                <exclude reference="BSc-Ro-wcC"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="wkL-0X-e5g"/>
+                                <include reference="g6P-PI-YPe"/>
+                                <include reference="gtG-Ja-LAS"/>
+                                <include reference="qfc-3e-pw8"/>
+                                <include reference="o7M-qb-kl1"/>
+                                <include reference="ZND-Zc-b8s"/>
+                                <include reference="4Hw-LU-DoF"/>
+                                <include reference="OZd-DS-Fg1"/>
+                                <include reference="BSc-Ro-wcC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageGaleria1" destination="wkL-0X-e5g" id="1fW-3J-RE0"/>
+                        <outlet property="imageGaleria2" destination="g6P-PI-YPe" id="lEg-bb-iaM"/>
+                        <outlet property="imageGaleria3" destination="qfc-3e-pw8" id="2C7-Yg-6pw"/>
+                        <outlet property="imageGaleria4" destination="gtG-Ja-LAS" id="9dw-Wm-Rq6"/>
+                        <outlet property="imageGaleria5" destination="o7M-qb-kl1" id="247-Fo-7TC"/>
+                        <outlet property="imageGaleria6" destination="OZd-DS-Fg1" id="xwO-RV-cE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qEW-9b-Zam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722" y="-727"/>
+        </scene>
+        <!--Novo ItemVC-->
+        <scene sceneID="2LH-9e-NCk">
+            <objects>
+                <viewController id="GSK-5I-IUj" customClass="NovoItemVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6SD-93-6Qg"/>
+                        <viewControllerLayoutGuide type="bottom" id="u9s-fa-6Ip"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i5X-Nh-UE4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.png" translatesAutoresizingMaskIntoConstraints="NO" id="EqX-Uc-Mg2">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="99" width="200" height="200"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categoria" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVf-mW-mf8">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.68627450980000004" green="0.20784313730000001" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="44" y="402" width="95" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tamanho" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZu-8p-h6A">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.67843137249999996" green="0.20392156859999999" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="44" y="476" width="90" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cH2-8A-4z4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="44" y="532" width="56" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASp-Ug-bYI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" red="0.69019607839999997" green="0.20784313730000001" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="325" y="46" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="E60-2D-wYB" kind="show" id="76O-Ub-a2c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I74-R7-u5R">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="20"/>
+                                <state key="normal" title="Cancelar">
+                                    <color key="titleColor" red="0.68235294120000001" green="0.20392156859999999" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="39" y="46" width="61" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="5dt-Wq-Z9d" kind="show" id="5A3-ae-bqS"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7a-HB-eop">
+                                <rect key="frame" x="0.0" y="-162" width="320" height="162"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="333" width="184" height="162"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="GSK-5I-IUj" id="Hsy-ck-MQO"/>
+                                    <outlet property="delegate" destination="GSK-5I-IUj" id="n3X-Ob-m9E"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tamanho.png" translatesAutoresizingMaskIntoConstraints="NO" id="xt4-He-6Ft">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="473" width="205" height="33"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="xfe-HA-JNv">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="536" width="85" height="13"/>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descrição" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yxh-Hd-Oaf">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="56" y="333" width="289" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oy7-Xm-nkC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Upload">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="215" width="50" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonUploadPhoto:" destination="GSK-5I-IUj" eventType="touchUpInside" id="TZs-4g-Wd5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.87058823529411766" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="EqX-Uc-Mg2"/>
+                                <exclude reference="dVf-mW-mf8"/>
+                                <exclude reference="SZu-8p-h6A"/>
+                                <exclude reference="cH2-8A-4z4"/>
+                                <exclude reference="ASp-Ug-bYI"/>
+                                <exclude reference="I74-R7-u5R"/>
+                                <exclude reference="s7a-HB-eop"/>
+                                <exclude reference="xt4-He-6Ft"/>
+                                <exclude reference="xfe-HA-JNv"/>
+                                <exclude reference="yxh-Hd-Oaf"/>
+                                <exclude reference="Oy7-Xm-nkC"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="EqX-Uc-Mg2"/>
+                                <include reference="dVf-mW-mf8"/>
+                                <include reference="SZu-8p-h6A"/>
+                                <include reference="cH2-8A-4z4"/>
+                                <include reference="ASp-Ug-bYI"/>
+                                <include reference="I74-R7-u5R"/>
+                                <include reference="s7a-HB-eop"/>
+                                <include reference="xt4-He-6Ft"/>
+                                <include reference="xfe-HA-JNv"/>
+                                <include reference="yxh-Hd-Oaf"/>
+                                <include reference="Oy7-Xm-nkC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="myPicker" destination="s7a-HB-eop" id="pd3-6h-n67"/>
+                        <outlet property="textDescricao" destination="yxh-Hd-Oaf" id="Ds7-8s-iHf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M5P-Wa-5un" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2490" y="-727"/>
+        </scene>
+        <!--MenuVC-->
+        <scene sceneID="ENr-zJ-0Kj">
+            <objects>
+                <viewController id="5dt-Wq-Z9d" customClass="MenuVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2GO-kC-9eo"/>
+                        <viewControllerLayoutGuide type="bottom" id="gck-HE-gvZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hVb-kM-lFs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="hWu-Ib-hFI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="115" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERONICA MONTEZUMA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBl-QS-BHe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="138" y="148" width="222" height="33"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bld-Lo-IIZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="Perfil">
+                                    <color key="titleColor" red="0.70980392156862748" green="0.26666666666666666" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="289" width="64" height="26"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="SRS-ET-aaq" kind="show" id="l8c-n7-nQt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0r-rW-IN4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="Galeria">
+                                    <color key="titleColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="355" width="79" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="E60-2D-wYB" kind="show" id="Hv0-kV-UeB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hh-HJ-74V">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.69019607843137254" green="0.20784313725490197" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="501" width="48" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajuda" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJd-PY-USG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.68627450980392157" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="432" width="64" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUF-GP-JGa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="20"/>
+                                <state key="normal" title="Voltar">
+                                    <color key="titleColor" red="0.67843137254901964" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="39" width="51" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="2cf-KK-iJg" kind="show" id="erB-pM-k4d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.9137254901960784" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="hWu-Ib-hFI"/>
+                                <exclude reference="BBl-QS-BHe"/>
+                                <exclude reference="Bld-Lo-IIZ"/>
+                                <exclude reference="k0r-rW-IN4"/>
+                                <exclude reference="0Hh-HJ-74V"/>
+                                <exclude reference="lJd-PY-USG"/>
+                                <exclude reference="aUF-GP-JGa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="hWu-Ib-hFI"/>
+                                <include reference="BBl-QS-BHe"/>
+                                <include reference="Bld-Lo-IIZ"/>
+                                <include reference="k0r-rW-IN4"/>
+                                <include reference="0Hh-HJ-74V"/>
+                                <include reference="lJd-PY-USG"/>
+                                <include reference="aUF-GP-JGa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imagePerfil" destination="hWu-Ib-hFI" id="hsw-Ey-412"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hmp-EA-3dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722" y="-25"/>
+        </scene>
+        <!--PerfilVC-->
+        <scene sceneID="qGZ-BN-wS1">
+            <objects>
+                <viewController id="SRS-ET-aaq" customClass="PerfilVC" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hK7-KD-fgr"/>
+                        <viewControllerLayoutGuide type="bottom" id="EjG-sK-ahc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7WC-lE-Aqk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTK-WH-gFo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.67450980390000004" green="0.20392156859999999" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="506" width="62" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfi-k4-T94">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" red="0.68627450980392157" green="0.20784313725490197" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="326" y="46" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="5dt-Wq-Z9d" kind="show" id="Uyj-ig-rUX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genero" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ew3-HP-46w">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="439" width="67" height="33"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Veronica Montezuma" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rcy-Z2-jf3">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="319" width="201" height="30"/>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mw-Tq-QIB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.68235294117647061" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="323" width="55" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="24 anos" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9oA-uh-FSN">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="378" width="201" height="30"/>
+                                </variation>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtY-hb-bv3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.70588235294117652" green="0.21176470588235294" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="52" y="382" width="55" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="11E-d3-U4y">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="153" y="449" width="85" height="13"/>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="veronica.montezuma@gmail.com" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kTx-Tu-XHH">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="502" width="205" height="30"/>
+                                </variation>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="1GS-jy-bak">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="77" width="200" height="200"/>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fH9-pa-btu">
+                                <rect key="frame" x="103" y="103" width="319" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zVm-Zc-EVR">
+                                <rect key="frame" x="103" y="165" width="319" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803926" green="0.89411764705882357" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="DTK-WH-gFo"/>
+                                <exclude reference="zfi-k4-T94"/>
+                                <exclude reference="ew3-HP-46w"/>
+                                <exclude reference="rcy-Z2-jf3"/>
+                                <exclude reference="5mw-Tq-QIB"/>
+                                <exclude reference="9oA-uh-FSN"/>
+                                <exclude reference="PtY-hb-bv3"/>
+                                <exclude reference="11E-d3-U4y"/>
+                                <exclude reference="kTx-Tu-XHH"/>
+                                <exclude reference="1GS-jy-bak"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="DTK-WH-gFo"/>
+                                <include reference="zfi-k4-T94"/>
+                                <include reference="ew3-HP-46w"/>
+                                <include reference="rcy-Z2-jf3"/>
+                                <include reference="5mw-Tq-QIB"/>
+                                <include reference="9oA-uh-FSN"/>
+                                <include reference="PtY-hb-bv3"/>
+                                <include reference="11E-d3-U4y"/>
+                                <include reference="kTx-Tu-XHH"/>
+                                <include reference="1GS-jy-bak"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imagePerfil" destination="1GS-jy-bak" id="kVb-gz-62Q"/>
+                        <outlet property="txtEmail" destination="zVm-Zc-EVR" id="vG1-hX-QOK"/>
+                        <outlet property="txtName" destination="fH9-pa-btu" id="YjN-3F-BXe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJ6-xJ-UX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2419" y="-25"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="deF-Rb-aBm">
+            <objects>
+                <tabBarController id="Fwy-lR-3SO" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qJ4-41-Eed">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0rp-W9-bSQ" kind="relationship" relationship="viewControllers" id="m7N-7Y-9HI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNF-mX-gYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524.5" y="743"/>
+        </scene>
+        <!--Combinações-->
+        <scene sceneID="PlW-R2-ZZf">
+            <objects>
+                <tableViewController id="L6t-Ev-SYy" customClass="PlayersViewController" customModule="TrocaComigo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="Aoi-GM-Ve3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" rowHeight="100" id="6fv-3M-813" customClass="PlayerCell" customModule="TrocaComigo" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6fv-3M-813" id="EQb-zx-dez">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpQ-yS-tDS">
+                                            <rect key="frame" x="8" y="0.0" width="190" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ud5-5P-Qrr">
+                                            <rect key="frame" x="8" y="27" width="190" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" tag="102" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwb-KZ-WRx">
+                                            <rect key="frame" x="245" y="8" width="80" height="80"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="gameLabel" destination="ud5-5P-Qrr" id="4L7-mn-kSG"/>
+                                    <outlet property="nameLabel" destination="BpQ-yS-tDS" id="PPU-fM-NeN"/>
+                                    <outlet property="ratingImageView" destination="jwb-KZ-WRx" id="8Fw-bY-4dr"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="L6t-Ev-SYy" id="QeU-oH-04A"/>
+                            <outlet property="delegate" destination="L6t-Ev-SYy" id="ENT-BZ-WgQ"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Combinações" id="peN-hw-CAy"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3f-QI-fCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3997.5" y="743"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7zO-0L-ZA9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0rp-W9-bSQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="04U-fY-iLc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fbf-U1-82S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L6t-Ev-SYy" kind="relationship" relationship="rootViewController" id="sHf-Za-ytu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDI-ng-r7g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3244.5" y="743"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle 7.png" width="435" height="125"/>
+        <image name="Telegram.png" width="1024" height="1024"/>
+        <image name="Troca comigo.png" width="361" height="133"/>
+        <image name="bia.jpg" width="720" height="960"/>
+        <image name="biamatch.png" width="724" height="724"/>
+        <image name="button1.png" width="121" height="120"/>
+        <image name="button2.png" width="121" height="120"/>
+        <image name="camera.png" width="414" height="414"/>
+        <image name="carol3.jpg" width="640" height="833"/>
+        <image name="chat.png" width="512" height="512"/>
+        <image name="facelogin.png" width="492" height="108"/>
+        <image name="favorite.png" width="22" height="20"/>
+        <image name="fb.png" width="325" height="325"/>
+        <image name="gustavo.png" width="510" height="510"/>
+        <image name="luisa.jpg" width="720" height="960"/>
+        <image name="luisa3.jpg" width="960" height="720"/>
+        <image name="mail.png" width="512" height="512"/>
+        <image name="mayaram2.jpg" width="659" height="960"/>
+        <image name="mayaram3.jpg" width="688" height="960"/>
+        <image name="menu.png" width="626" height="626"/>
+        <image name="perfil.png" width="444" height="444"/>
+        <image name="tamanho.png" width="344" height="20"/>
+        <image name="tipo.png" width="128" height="20"/>
+        <image name="whatsapp.png" width="153" height="163"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="76O-Ub-a2c"/>
+        <segue reference="erB-pM-k4d"/>
+        <segue reference="Uyj-ig-rUX"/>
+    </inferredMetricsTieBreakers>
+</document>
