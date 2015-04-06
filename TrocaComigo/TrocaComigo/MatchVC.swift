@@ -1,5 +1,5 @@
 //
-//  MatchViewController.swift
+//  MatchVC.swift
 //  TrocaComigo
 //
 //  Created by Veronica Montezuma on 3/17/15.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class MatchViewController: UIViewController {
+class MatchVC: UIViewController {
 
-    @IBOutlet weak var labelNome: UILabel!
-    @IBOutlet weak var imageUsuarioQuer: UIImageView!
-    @IBOutlet weak var imageUsuarioTem: UIImageView!
+    @IBOutlet weak var labelUsername: UILabel!
+    @IBOutlet weak var imageUserOne: UIImageView!
+    @IBOutlet weak var imageUserTwo: UIImageView!
+    @IBOutlet weak var buttonBack: UIButton!
     
     
     override func viewDidLoad() {

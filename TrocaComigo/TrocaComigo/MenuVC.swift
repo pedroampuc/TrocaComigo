@@ -10,8 +10,12 @@ import UIKit
 
 class MenuVC: UIViewController {
 
-    @IBOutlet weak var imagePerfil: UIImageView!
-    
+    @IBOutlet weak var imageProfile: UIImageView!
+    @IBOutlet weak var labelUsername: UILabel!
+    @IBOutlet weak var buttonOk: UIButton!
+    @IBOutlet weak var buttonLogout: UIButton!
+    @IBOutlet weak var buttonGaleria: UIButton!
+    @IBOutlet weak var buttonProfile: UIButton!
     
 
     override func viewDidLoad() {

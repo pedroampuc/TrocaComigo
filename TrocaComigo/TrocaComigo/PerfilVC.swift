@@ -11,14 +11,14 @@ import UIKit
 class PerfilVC: UIViewController {
 
     @IBOutlet weak var imagePerfil: UIImageView!
-    @IBOutlet weak var txtName: UITextField!
-    @IBOutlet weak var txtEmail: UITextField!
+    //  @IBOutlet weak var txtName: UITextField!
+    //  @IBOutlet weak var txtEmail: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var user = Data.sharedInstance.user!
-        self.txtEmail.text = user.email
-        self.txtName.text = user.name
+        //var user = Data.sharedInstance.user!
+        //self.txtEmail.text = user.email
+        //self.txtName.text = user.name
         
         // Do any additional setup after loading the view.
     }

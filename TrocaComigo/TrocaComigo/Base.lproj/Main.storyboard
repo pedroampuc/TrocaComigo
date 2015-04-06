@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+>>>>>>> Stashed changes
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="NanumScript.ttc">
-            <string>NanumPen</string>
-            <string>NanumPen</string>
             <string>NanumPen</string>
             <string>NanumPen</string>
             <string>NanumPen</string>
@@ -108,9 +110,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="71" y="474" width="80" height="80"/>
                                 </variation>
-                                <connections>
-                                    <action selector="buttonNoAction:" destination="2cf-KK-iJg" eventType="touchUpInside" id="9ym-MT-nUa"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCu-TH-MRD">
                                 <rect key="frame" x="349" y="476" width="80" height="80"/>
@@ -127,7 +126,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gustavo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uQa-BB-f4p">
                                 <rect key="frame" x="187" y="185" width="227" height="229"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="87" y="173" width="227" height="229"/>
+                                    <rect key="frame" x="87" y="173" width="229" height="229"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atI-xk-WvS">
@@ -140,9 +139,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="336" y="90" width="25" height="25"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="5dt-Wq-Z9d" kind="show" id="BM7-ar-Dvy"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="920-wx-yqx">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -152,9 +148,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="29" y="85" width="30" height="30"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="Fwy-lR-3SO" kind="show" id="5yw-40-ja8"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tam. M" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVg-Oe-sMO">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -162,50 +155,24 @@
                                 <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="128" y="401" width="65" height="21"/>
+                                    <rect key="frame" x="175" y="416" width="65" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="314" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svs-z3-6La">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="22"/>
-                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="234" y="401" width="29" height="26"/>
-                                </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorite.png" translatesAutoresizingMaskIntoConstraints="NO" id="dB7-0J-cLQ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="258" y="405" width="15" height="15"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.94117647058823528" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="920-wx-yqx"/>
                                 <exclude reference="kVg-Oe-sMO"/>
-                                <exclude reference="svs-z3-6La"/>
-                                <exclude reference="dB7-0J-cLQ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="920-wx-yqx"/>
                                 <include reference="kVg-Oe-sMO"/>
-                                <include reference="svs-z3-6La"/>
-                                <include reference="dB7-0J-cLQ"/>
                             </mask>
                         </variation>
                     </view>
-                    <connections>
-                        <outlet property="LikesLabel" destination="svs-z3-6La" id="T0x-y8-olW"/>
-                        <outlet property="TamanhoLabel" destination="kVg-Oe-sMO" id="0aD-Tl-ecX"/>
-                        <outlet property="buttonNo" destination="OcX-J7-SN5" id="DJp-m6-tuV"/>
-                        <outlet property="buttonYes" destination="fCu-TH-MRD" id="GhT-gU-nHe"/>
-                        <outlet property="imageView" destination="uQa-BB-f4p" id="WlF-Sk-0Dx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQl-hZ-2yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -683,44 +650,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="289" width="64" height="26"/>
+                                    <rect key="frame" x="168" y="287" width="64" height="26"/>
                                 </variation>
                                 <connections>
                                     <segue destination="SRS-ET-aaq" kind="show" id="l8c-n7-nQt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0r-rW-IN4">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
-                                <state key="normal" title="Galeria">
-                                    <color key="titleColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="355" width="79" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="E60-2D-wYB" kind="show" id="Hv0-kV-UeB"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hh-HJ-74V">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
-                                <color key="textColor" red="0.69019607843137254" green="0.20784313725490197" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="501" width="48" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajuda" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJd-PY-USG">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
-                                <color key="textColor" red="0.68627450980392157" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="432" width="64" height="21"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUF-GP-JGa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="20"/>
@@ -735,6 +670,29 @@
                                     <segue destination="2cf-KK-iJg" kind="show" id="erB-pM-k4d"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hh-HJ-74V">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <color key="textColor" red="0.69019607843137254" green="0.20784313725490197" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="330" y="46" width="48" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0r-rW-IN4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="28"/>
+                                <state key="normal" title="Galeria">
+                                    <color key="titleColor" red="0.67450980392156867" green="0.20392156862745098" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="337" width="79" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="E60-2D-wYB" kind="show" id="Hv0-kV-UeB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.9137254901960784" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -742,10 +700,9 @@
                                 <exclude reference="hWu-Ib-hFI"/>
                                 <exclude reference="BBl-QS-BHe"/>
                                 <exclude reference="Bld-Lo-IIZ"/>
-                                <exclude reference="k0r-rW-IN4"/>
-                                <exclude reference="0Hh-HJ-74V"/>
-                                <exclude reference="lJd-PY-USG"/>
                                 <exclude reference="aUF-GP-JGa"/>
+                                <exclude reference="0Hh-HJ-74V"/>
+                                <exclude reference="k0r-rW-IN4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -753,16 +710,12 @@
                                 <include reference="hWu-Ib-hFI"/>
                                 <include reference="BBl-QS-BHe"/>
                                 <include reference="Bld-Lo-IIZ"/>
-                                <include reference="k0r-rW-IN4"/>
-                                <include reference="0Hh-HJ-74V"/>
-                                <include reference="lJd-PY-USG"/>
                                 <include reference="aUF-GP-JGa"/>
+                                <include reference="0Hh-HJ-74V"/>
+                                <include reference="k0r-rW-IN4"/>
                             </mask>
                         </variation>
                     </view>
-                    <connections>
-                        <outlet property="imagePerfil" destination="hWu-Ib-hFI" id="hsw-Ey-412"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmp-EA-3dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -866,16 +819,6 @@
                                     <rect key="frame" x="95" y="77" width="200" height="200"/>
                                 </variation>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fH9-pa-btu">
-                                <rect key="frame" x="103" y="103" width="319" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zVm-Zc-EVR">
-                                <rect key="frame" x="103" y="165" width="319" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274509803926" green="0.89411764705882357" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -909,8 +852,6 @@
                     </view>
                     <connections>
                         <outlet property="imagePerfil" destination="1GS-jy-bak" id="kVb-gz-62Q"/>
-                        <outlet property="txtEmail" destination="zVm-Zc-EVR" id="vG1-hX-QOK"/>
-                        <outlet property="txtName" destination="fH9-pa-btu" id="YjN-3F-BXe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJ6-xJ-UX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1018,7 +959,6 @@
         <image name="carol3.jpg" width="640" height="833"/>
         <image name="chat.png" width="512" height="512"/>
         <image name="facelogin.png" width="492" height="108"/>
-        <image name="favorite.png" width="22" height="20"/>
         <image name="fb.png" width="325" height="325"/>
         <image name="gustavo.png" width="510" height="510"/>
         <image name="luisa.jpg" width="720" height="960"/>
@@ -1033,8 +973,14 @@
         <image name="whatsapp.png" width="153" height="163"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< Updated upstream
         <segue reference="erB-pM-k4d"/>
         <segue reference="5A3-ae-bqS"/>
         <segue reference="76O-Ub-a2c"/>
+=======
+        <segue reference="5A3-ae-bqS"/>
+        <segue reference="Hv0-kV-UeB"/>
+        <segue reference="erB-pM-k4d"/>
+>>>>>>> Stashed changes
     </inferredMetricsTieBreakers>
 </document>
