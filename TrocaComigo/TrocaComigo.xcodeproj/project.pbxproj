@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D75CBFD1AD2FFB100BBE920 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D75CBFC1AD2FFB100BBE920 /* ProfileViewController.xib */; };
+		7D75CBFF1AD300AF00BBE920 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D75CBFE1AD300AF00BBE920 /* NewItemViewController.xib */; };
+		7D75CC011AD3010300BBE920 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D75CC001AD3010300BBE920 /* GalleryViewController.xib */; };
 		9648D8011AB8CC7C00A513D5 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 9648D8001AB8CC7C00A513D5 /* favorite.png */; };
 		9648D8031AB8D20400A513D5 /* luisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9648D8021AB8D20400A513D5 /* luisa.jpg */; };
 		9693FEC41AB4965C009D242C /* facelogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693FEC31AB4965C009D242C /* facelogin.png */; };
@@ -85,6 +88,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D75CBFC1AD2FFB100BBE920 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		7D75CBFE1AD300AF00BBE920 /* NewItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		7D75CC001AD3010300BBE920 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
 		9648D8001AB8CC7C00A513D5 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		9648D8021AB8D20400A513D5 /* luisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luisa.jpg; sourceTree = "<group>"; };
 		9693FEC31AB4965C009D242C /* facelogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facelogin.png; sourceTree = "<group>"; };
@@ -326,6 +332,9 @@
 			isa = PBXGroup;
 			children = (
 				96A4DC2C1AB1F92F005A8192 /* LaunchScreen.xib */,
+				7D75CBFE1AD300AF00BBE920 /* NewItemViewController.xib */,
+				7D75CC001AD3010300BBE920 /* GalleryViewController.xib */,
+				7D75CBFC1AD2FFB100BBE920 /* ProfileViewController.xib */,
 				96A4DC271AB1F92F005A8192 /* Main.storyboard */,
 			);
 			name = view;
@@ -421,9 +430,11 @@
 				969D27271AB89B51007BE242 /* bia.jpg in Resources */,
 				96A4DC291AB1F92F005A8192 /* Main.storyboard in Resources */,
 				D42AFBFA1AC091F80031C315 /* 1StarSmall.png in Resources */,
+				7D75CBFD1AD2FFB100BBE920 /* ProfileViewController.xib in Resources */,
 				96A4DC2E1AB1F92F005A8192 /* LaunchScreen.xib in Resources */,
 				96A4DC4E1AB1FEC1005A8192 /* Rectangle 7.png in Resources */,
 				D42AFBFC1AC091F80031C315 /* 3StarsSmall.png in Resources */,
+				7D75CBFF1AD300AF00BBE920 /* NewItemViewController.xib in Resources */,
 				969D27321AB89F0C007BE242 /* tamanho.png in Resources */,
 				969D27451AB8C26F007BE242 /* Telegram.png in Resources */,
 				96A4DC2B1AB1F92F005A8192 /* Images.xcassets in Resources */,
@@ -445,6 +456,7 @@
 				969D27191AB8970F007BE242 /* gustavo.png in Resources */,
 				969D27411AB8C24B007BE242 /* mail.png in Resources */,
 				969D272F1AB89CFA007BE242 /* camera.png in Resources */,
+				7D75CC011AD3010300BBE920 /* GalleryViewController.xib in Resources */,
 				96A4DC4C1AB1FEC1005A8192 /* button2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
