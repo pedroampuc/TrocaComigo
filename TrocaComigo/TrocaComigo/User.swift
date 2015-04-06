@@ -6,9 +6,12 @@
 //  Copyright (c) 2015 m2pv. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
 
 class User {
+    
+    
     
     var name:String!
     var email:String!
@@ -28,5 +31,18 @@ class User {
         
     }
     
+    func setMobile(mobile:String)
+    {
+        self.mobile = mobile
+    }
     
+    func setAge(age:Int)
+    {
+        self.age = age
+    }
+    
+    func getUserWears()
+    {
+        
+    }
 }

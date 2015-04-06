@@ -22,10 +22,10 @@ class LoginVC: UIViewController {
 
     @IBAction func loginButton(sender: AnyObject) {
         
-        Data.sharedInstance.user = DAOUser.getUserByEmail("xpto@xpto.com.br")
-        Data.sharedInstance.wears = DAOWear.getWearsByUser(Data.sharedInstance.user!)
-        Data.sharedInstance.wearsLiked = DAOWear.getWearsLikedByUser(Data.sharedInstance.user!)
-        Data.sharedInstance.matches =  DAOMatch.getAllMatchesByUser()
+        Data.sharedInstance.user = DAOUser.getUserByEmail("teste1@gmail.com")
+       // Data.sharedInstance.wears = DAOWear.getWearsByUser(Data.sharedInstance.user!)
+       // Data.sharedInstance.wearsLiked = DAOWear.getWearsLikedByUser(Data.sharedInstance.user!)
+       // Data.sharedInstance.matches =  DAOMatch.getAllMatchesByUser()
         
     }
 
