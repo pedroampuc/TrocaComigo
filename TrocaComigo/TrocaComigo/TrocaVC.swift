@@ -11,16 +11,14 @@ import UIKit
 //var dtDAOaux: DataBaseDAO = DataBaseDAO()
 
 class TrocaVC: UIViewController {
-<<<<<<< Updated upstream
-    
-    @IBOutlet weak var imageView: UIImageView!
-=======
 
-    @IBOutlet weak var imageWears: UIImageView!
->>>>>>> Stashed changes
+    @IBOutlet weak var imageView: UIImageView!
+
     @IBOutlet weak var buttonNo: UIButton!
     @IBOutlet weak var buttonYes: UIButton!
     @IBOutlet weak var descriptionLabel: UILabel!
+      @IBOutlet weak var TamanhoLabel: UILabel!
+      @IBOutlet weak var LikesLabel: UILabel!
     @IBOutlet weak var sizeLabel: UILabel!
     @IBOutlet weak var buttonSettings: UIButton!
     @IBOutlet weak var buttonChat: UIButton!
@@ -69,7 +67,8 @@ class TrocaVC: UIViewController {
                         
                         var usercell = Data.sharedInstance.user?.mobile
                         
-                        println(usercell)
+                        println(usercell!)
+                        println (sizeI)
                         
                         self.TamanhoLabel.text = "Tam. " + sizeI!
                         
@@ -93,87 +92,13 @@ class TrocaVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     
-    
-    /*
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
-    
-    //func verifica ()
-    //{
-<<<<<<< Updated upstream
-    //var consulta: Int = Int(dtDAOaux.consultaFinalizada);
-    
-    
-    //        println(consulta) //"VERIFICA %d", dtDAOaux.consultaFinalizada)
-    //       if consulta == 1
-    //       {
-    ////        NSLog(@"Consulta acabou")
-    //
-    //         self.preencheLabel()
-    //        }
-    //    }
-    //
-    //    func preencheLabel()
-    //    {
-    //        var array : NSMutableArray = dtDAOaux.arrLSBGoals
-    //        //self.TamanhoLabel.text = array.objectAtIndex(0).value["tamanho"]
-    //        //dtDAOaux.arrLSBGoals.objectAtIndex(0).valueForAttribute(Key :"tamanho")
-    //        println(array)
-    //    }
-    
+
     @IBAction func buttonNoAction(sender: AnyObject)
     {
-        
-=======
-        //var consulta: Int = Int(dtDAOaux.consultaFinalizada);
-        
-        
-//        println(consulta) //"VERIFICA %d", dtDAOaux.consultaFinalizada)
-//       if consulta == 1
-//       {
-////        NSLog(@"Consulta acabou")
-//       
-//         self.preencheLabel()
-//        }
-//    }
-//    
-//    func preencheLabel()
-//    {
-//        var array : NSMutableArray = dtDAOaux.arrLSBGoals
-//        //self.TamanhoLabel.text = array.objectAtIndex(0).value["tamanho"]
-//        //dtDAOaux.arrLSBGoals.objectAtIndex(0).valueForAttribute(Key :"tamanho")
-//        println(array)
-//    }
-//
-    @IBAction func buttonNoAction(sender: AnyObject)
-    {
-        var consulta: Int = Int(dtDAOaux.consultaFinalizada);
-        if(consulta==1)
-        {
-            if (dtDAOaux.arrLSBGoals != nil)
-            {
-                let array = dtDAOaux.arrLSBGoals as NSMutableArray
-                //array[0].nome
-                let array2: AnyObject = array[0]
-                //var nome : String = String(format: "%@",locale: array.valueForKey("nome") as? NSLocale)
-                println(array, "ARRAY Q VEIO DO BANCO ")
-                println(array2, "ARRAY 2 ")
-                //println(array[0]. ,"nome")
-                let text = array.valueForKey("tamanho")?.description
-                self.sizeLabel.text = text //= array.("tamanho")
-                println(array.valueForKey("nome")! , "wtf ?-----" ,array.valueForKey("tamanho")!)
-            }
-        }
->>>>>>> Stashed changes
     }
-    
+   
     
     
 }

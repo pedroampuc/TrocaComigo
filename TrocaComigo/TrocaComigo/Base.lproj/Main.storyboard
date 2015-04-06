@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< Updated upstream
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
->>>>>>> Stashed changes
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="NanumScript.ttc">
@@ -158,21 +154,36 @@
                                     <rect key="frame" x="175" y="416" width="65" height="21"/>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-X5-ntS">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="NanumPen" family="Nanum Pen Script" pointSize="22"/>
+                                <color key="textColor" red="0.70588235290000001" green="0.21176470589999999" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="146" y="445" width="122" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.94117647058823528" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="920-wx-yqx"/>
                                 <exclude reference="kVg-Oe-sMO"/>
+                                <exclude reference="wv9-X5-ntS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="920-wx-yqx"/>
                                 <include reference="kVg-Oe-sMO"/>
+                                <include reference="wv9-X5-ntS"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="LikesLabel" destination="wv9-X5-ntS" id="IEz-Hp-uTR"/>
+                        <outlet property="TamanhoLabel" destination="kVg-Oe-sMO" id="shX-ND-GuK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQl-hZ-2yW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -973,14 +984,8 @@
         <image name="whatsapp.png" width="153" height="163"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< Updated upstream
-        <segue reference="erB-pM-k4d"/>
-        <segue reference="5A3-ae-bqS"/>
         <segue reference="76O-Ub-a2c"/>
-=======
         <segue reference="5A3-ae-bqS"/>
-        <segue reference="Hv0-kV-UeB"/>
-        <segue reference="erB-pM-k4d"/>
->>>>>>> Stashed changes
+        <segue reference="w32-39-9yT"/>
     </inferredMetricsTieBreakers>
 </document>

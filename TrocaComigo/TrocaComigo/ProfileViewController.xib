@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="NanumScript.ttc">
@@ -136,12 +136,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuX-5k-Wq9">
-                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                    <state key="normal" image="box.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwJ-sQ-Maf">
                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                     <state key="normal" image="box.png">
@@ -183,6 +177,12 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuX-5k-Wq9">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="box.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.97647058823529409" green="0.94117647058823528" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
@@ -265,12 +265,12 @@
                     <exclude reference="I0h-rb-OaN"/>
                     <exclude reference="Ppv-JV-WlL"/>
                     <exclude reference="UOl-aE-Yv6"/>
-                    <exclude reference="ZuX-5k-Wq9"/>
                     <exclude reference="GwJ-sQ-Maf"/>
                     <exclude reference="L8B-5J-h9Y"/>
                     <exclude reference="1L6-m6-LEI"/>
                     <exclude reference="1Zn-NQ-5ur"/>
                     <exclude reference="nYK-VD-80G"/>
+                    <exclude reference="ZuX-5k-Wq9"/>
                 </mask>
                 <mask key="constraints">
                     <exclude reference="D85-8W-2W7"/>
@@ -317,12 +317,12 @@
                     <include reference="I0h-rb-OaN"/>
                     <include reference="Ppv-JV-WlL"/>
                     <include reference="UOl-aE-Yv6"/>
-                    <include reference="ZuX-5k-Wq9"/>
                     <include reference="GwJ-sQ-Maf"/>
                     <include reference="L8B-5J-h9Y"/>
                     <include reference="1L6-m6-LEI"/>
                     <include reference="1Zn-NQ-5ur"/>
                     <include reference="nYK-VD-80G"/>
+                    <include reference="ZuX-5k-Wq9"/>
                 </mask>
                 <mask key="constraints">
                     <include reference="D85-8W-2W7"/>
