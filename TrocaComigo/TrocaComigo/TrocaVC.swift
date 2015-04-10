@@ -27,6 +27,15 @@ class TrocaVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = imageView.frame.size.width/2
+        
+        imageView.layer.borderWidth = 2
+        imageView.layer.borderColor = UIColor.whiteColor().CGColor
+        
+        
         //let usuarioaux: Array = Array()
         
         // dtDAOaux.createUserWithMail("teste1@gmail.com", nome: "teste", idade: "12", nasc: "21/12/1278", tamanho: "g", sexo: "M", celular: "121212121", facebook: "teste1")

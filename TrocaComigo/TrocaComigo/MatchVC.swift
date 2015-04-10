@@ -18,6 +18,21 @@ class MatchVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //circular image and border UserOne
+        imageUserOne.layer.masksToBounds = true
+        imageUserOne.layer.cornerRadius = imageUserOne.frame.size.width/2
+        
+        imageUserOne.layer.borderWidth = 2
+        imageUserOne.layer.borderColor = UIColor.whiteColor().CGColor
+        
+        //circular image and border UserTwo
+        imageUserTwo.layer.masksToBounds = true
+        imageUserTwo.layer.cornerRadius = imageUserOne.frame.size.width/2
+        
+        imageUserTwo.layer.borderWidth = 2
+        imageUserTwo.layer.borderColor = UIColor.whiteColor().CGColor
+
 
         // Do any additional setup after loading the view.
     }

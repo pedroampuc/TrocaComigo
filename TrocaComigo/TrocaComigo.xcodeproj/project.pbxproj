@@ -21,7 +21,6 @@
 		96526B171AC9D38F00BF6D7F /* TrocaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96526B161AC9D38F00BF6D7F /* TrocaVC.xib */; };
 		9693FEC41AB4965C009D242C /* facelogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9693FEC31AB4965C009D242C /* facelogin.png */; };
 		969D27171AB89519007BE242 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D27161AB89519007BE242 /* MenuVC.swift */; };
-		969D27191AB8970F007BE242 /* gustavo.png in Resources */ = {isa = PBXBuildFile; fileRef = 969D27181AB8970F007BE242 /* gustavo.png */; };
 		969D271B1AB897A0007BE242 /* PerfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D271A1AB897A0007BE242 /* PerfilVC.swift */; };
 		969D271D1AB8987B007BE242 /* GaleriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D271C1AB8987B007BE242 /* GaleriaVC.swift */; };
 		969D271F1AB89994007BE242 /* NovoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969D271E1AB89994007BE242 /* NovoItemVC.swift */; };
@@ -75,6 +74,7 @@
 		96CC6C301ACB21AD00897BEA /* PP.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CC6C241ACB21AD00897BEA /* PP.png */; };
 		96CC6C311ACB21AD00897BEA /* PPchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CC6C251ACB21AD00897BEA /* PPchecked.png */; };
 		96CC6C331ACB312500897BEA /* MatchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CC6C321ACB312500897BEA /* MatchVC.xib */; };
+		96D310211AD713C00092D614 /* gustavo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D310201AD713C00092D614 /* gustavo.png */; };
 		D42753361AC59AB800B9CC64 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42753351AC59AB800B9CC64 /* User.swift */; };
 		D42753381AC59B8600B9CC64 /* Wear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42753371AC59B8600B9CC64 /* Wear.swift */; };
 		D427533A1AC59BC200B9CC64 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42753391AC59BC200B9CC64 /* Match.swift */; };
@@ -121,7 +121,6 @@
 		96526B161AC9D38F00BF6D7F /* TrocaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrocaVC.xib; sourceTree = "<group>"; };
 		9693FEC31AB4965C009D242C /* facelogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facelogin.png; sourceTree = "<group>"; };
 		969D27161AB89519007BE242 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
-		969D27181AB8970F007BE242 /* gustavo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gustavo.png; sourceTree = "<group>"; };
 		969D271A1AB897A0007BE242 /* PerfilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilVC.swift; sourceTree = "<group>"; };
 		969D271C1AB8987B007BE242 /* GaleriaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleriaVC.swift; sourceTree = "<group>"; };
 		969D271E1AB89994007BE242 /* NovoItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovoItemVC.swift; sourceTree = "<group>"; };
@@ -178,6 +177,7 @@
 		96CC6C241ACB21AD00897BEA /* PP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PP.png; sourceTree = "<group>"; };
 		96CC6C251ACB21AD00897BEA /* PPchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PPchecked.png; sourceTree = "<group>"; };
 		96CC6C321ACB312500897BEA /* MatchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchVC.xib; sourceTree = "<group>"; };
+		96D310201AD713C00092D614 /* gustavo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gustavo.png; sourceTree = "<group>"; };
 		D42753351AC59AB800B9CC64 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D42753371AC59B8600B9CC64 /* Wear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wear.swift; sourceTree = "<group>"; };
 		D42753391AC59BC200B9CC64 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
@@ -291,8 +291,8 @@
 				7D4C3A5A1AD7069B0037BD94 /* boxx.png */,
 				9648D8001AB8CC7C00A513D5 /* favorite.png */,
 				969D274A1AB8C3D8007BE242 /* chat.png */,
-				969D27181AB8970F007BE242 /* gustavo.png */,
 				969D272E1AB89CFA007BE242 /* camera.png */,
+				96D310201AD713C00092D614 /* gustavo.png */,
 				9693FEC31AB4965C009D242C /* facelogin.png */,
 				96A4DC481AB1FEC1005A8192 /* button2.png */,
 				96A4DC5C1AB35826005A8192 /* Troca comigo.png */,
@@ -530,6 +530,7 @@
 				969D27251AB89B46007BE242 /* mayaram3.jpg in Resources */,
 				96A4DC4B1AB1FEC1005A8192 /* button1.png in Resources */,
 				D42AFBFD1AC091F80031C315 /* 4StarsSmall.png in Resources */,
+				96D310211AD713C00092D614 /* gustavo.png in Resources */,
 				96CC6C281ACB21AD00897BEA /* G.png in Resources */,
 				96CC6C2D1ACB21AD00897BEA /* Mchecked.png in Resources */,
 				7D4C3A591AD6F79B0037BD94 /* LoginVC.xib in Resources */,
@@ -543,7 +544,6 @@
 				969D272D1AB89BA6007BE242 /* mayaram2.jpg in Resources */,
 				96CC6C301ACB21AD00897BEA /* PP.png in Resources */,
 				969D27291AB89B73007BE242 /* carol3.jpg in Resources */,
-				969D27191AB8970F007BE242 /* gustavo.png in Resources */,
 				969D27411AB8C24B007BE242 /* mail.png in Resources */,
 				969D272F1AB89CFA007BE242 /* camera.png in Resources */,
 				96A4DC4C1AB1FEC1005A8192 /* button2.png in Resources */,

@@ -20,6 +20,12 @@ class MenuVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //circular image and border UserOne
+        imageProfile.layer.masksToBounds = true
+        imageProfile.layer.cornerRadius = 50
+        
+        imageProfile.layer.borderWidth = 2
+        imageProfile.layer.borderColor = UIColor.whiteColor().CGColor
 
         // Do any additional setup after loading the view.
     }
