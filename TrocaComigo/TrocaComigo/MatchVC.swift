@@ -38,4 +38,15 @@ class MatchVC: UIViewController {
     }
     */
 
+    @IBAction func buttonContinueTrocandoAction(sender: AnyObject) {
+        
+        
+        
+        var controller: TrocaVC = TrocaVC(nibName:"TrocaVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+        
+        
+        
+    }
 }

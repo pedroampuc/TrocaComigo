@@ -50,5 +50,13 @@ class NovoItemVC: UIViewController {
             // Dispose of any resources that can be recreated.
         }
         
+ 
+    @IBAction func buttonCancelAction(sender: AnyObject) {
+        
+        
+        var controller: GaleriaVC = GaleriaVC(nibName:"GaleriaVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+    }
         
     }

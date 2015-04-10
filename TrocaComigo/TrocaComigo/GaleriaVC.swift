@@ -10,12 +10,13 @@ import UIKit
 
 class GaleriaVC: UIViewController {
 
-    @IBOutlet weak var imageGaleria1: UIImageView!
-    @IBOutlet weak var imageGaleria2: UIImageView!
-    @IBOutlet weak var imageGaleria3: UIImageView!
-    @IBOutlet weak var imageGaleria4: UIImageView!
-    @IBOutlet weak var imageGaleria5: UIImageView!
-    @IBOutlet weak var imageGaleria6: UIImageView!
+    @IBOutlet var imageGaleria1: UIImageView!
+    @IBOutlet var imageGaleria2: UIImageView!
+    @IBOutlet var imageGaleria3: UIImageView!
+    @IBOutlet var imageGaleria4: UIImageView!
+    @IBOutlet var imageGaleria5: UIImageView!
+    @IBOutlet var imageGaleria6: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,4 +58,44 @@ class GaleriaVC: UIViewController {
     }
     */
 
+
+   
+    @IBAction func buttonVoltarAction(sender: AnyObject) {
+        
+        
+        
+        
+        var controller: MenuVC = MenuVC(nibName:"MenuVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+    }
+
+    
+    @IBAction func buttonNovoItemAction(sender: AnyObject) {
+        
+        
+        var controller: NovoItemVC = NovoItemVC(nibName:"NovoItemVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+        
+        
+    }
+    
+    
+    @IBAction func buttonVoltar(sender: AnyObject) {
+        
+        
+        
+        var controller: MenuVC = MenuVC(nibName:"MenuVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+        
+        
+    }
+    
+
+    
+    
+    
+    
 }

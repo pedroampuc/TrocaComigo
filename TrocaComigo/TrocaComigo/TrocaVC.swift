@@ -17,8 +17,8 @@ class TrocaVC: UIViewController {
     @IBOutlet weak var buttonNo: UIButton!
     @IBOutlet weak var buttonYes: UIButton!
     @IBOutlet weak var descriptionLabel: UILabel!
-      @IBOutlet weak var TamanhoLabel: UILabel!
-      @IBOutlet weak var LikesLabel: UILabel!
+    @IBOutlet weak var TamanhoLabel: UILabel!
+    @IBOutlet weak var LikesLabel: UILabel!
     @IBOutlet weak var sizeLabel: UILabel!
     @IBOutlet weak var buttonSettings: UIButton!
     @IBOutlet weak var buttonChat: UIButton!
@@ -99,6 +99,41 @@ class TrocaVC: UIViewController {
     {
     }
    
+    @IBAction func buttonYesAction(sender: AnyObject) {
+        
+        
+        
+        var controller: MatchVC = MatchVC(nibName:"MatchVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+    }
+    
+    
+    
+    @IBAction func buttonSettingsAction(sender: AnyObject) {
+        
+        
+        
+        var controller: MenuVC = MenuVC(nibName:"MenuVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }

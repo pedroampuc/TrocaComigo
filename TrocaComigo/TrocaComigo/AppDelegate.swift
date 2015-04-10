@@ -18,12 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        var mainViewController = MenuVC(nibName: "MenuVC", bundle: nil)
+        var mainViewController = LoginVC(nibName: "LoginVC", bundle: nil)
         
         window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
         
-        return true
+        // Override point for customization after application launch.
+        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+
     }
 
     func applicationWillResignActive(application: UIApplication) {

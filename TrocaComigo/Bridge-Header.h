@@ -10,5 +10,13 @@
 #define TrocaComigo_Bridge_Header_h
 
 #import "DataBaseDAO.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+
+
+
+
+
 
 #endif

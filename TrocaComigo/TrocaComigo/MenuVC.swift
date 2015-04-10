@@ -14,8 +14,7 @@ class MenuVC: UIViewController {
     @IBOutlet weak var labelUsername: UILabel!
     @IBOutlet weak var buttonOk: UIButton!
     @IBOutlet weak var buttonLogout: UIButton!
-    @IBOutlet weak var buttonGaleria: UIButton!
-    @IBOutlet weak var buttonProfile: UIButton!
+
     
 
     override func viewDidLoad() {
@@ -41,4 +40,51 @@ class MenuVC: UIViewController {
     }
     */
 
+    
+
+   
+
+    @IBAction func buttonPerfilAction(sender: AnyObject) {
+        
+        
+        
+        var controller: PerfilVC = PerfilVC(nibName:"PerfilVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+    }
+    
+
+
+    @IBAction func buttonGaleriaAction(sender: AnyObject) {
+        
+        
+        
+        
+        var controller: GaleriaVC = GaleriaVC(nibName:"GaleriaVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+    }
+    
+  
+    
+
+    
+    @IBAction func buttonOkAction(sender: AnyObject) {
+        
+        
+        
+        var controller: TrocaVC = TrocaVC(nibName:"TrocaVC", bundle:NSBundle.mainBundle())
+        self.presentViewController(controller, animated: true, completion: nil)
+
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
