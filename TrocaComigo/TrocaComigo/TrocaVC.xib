@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -18,6 +18,7 @@
                 <outlet property="buttonSettings" destination="Jt5-MC-Jik" id="zuH-4q-YjR"/>
                 <outlet property="buttonYes" destination="QDn-Wk-IrZ" id="gJW-RF-L6o"/>
                 <outlet property="descriptionLabel" destination="lcF-8h-OrQ" id="zZ4-DV-3pZ"/>
+                <outlet property="imageView" destination="86e-7M-iTb" id="y1n-Tp-Ppo"/>
                 <outlet property="sizeLabel" destination="2Kh-wq-ufF" id="jrA-Zs-ltE"/>
                 <outlet property="view" destination="iN0-l3-epB" id="shD-hW-NCa"/>
             </connections>
@@ -483,7 +484,7 @@
         <image name="button1.png" width="121" height="120"/>
         <image name="button2.png" width="121" height="120"/>
         <image name="chat.png" width="512" height="512"/>
-        <image name="gustavo.png" width="510" height="510"/>
+        <image name="gustavo.png" width="915" height="736"/>
         <image name="menu.png" width="626" height="626"/>
     </resources>
 </document>
